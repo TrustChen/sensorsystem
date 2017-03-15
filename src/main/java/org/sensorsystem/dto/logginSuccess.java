@@ -12,16 +12,17 @@ public class logginSuccess {
     private String password;
 
     //登录成功的对象
-    private logginSuccess logginSuccessuccess;
+    private users logginSuccessuccess;
 
     //构造函数
 
-    public logginSuccess(int id, String name, String password, logginSuccess logginSuccessuccess) {
+    public logginSuccess(int id, String name, String password, users logginSuccessuccess) {
         this.id = id;
         this.name = name;
         this.password = password;
         this.logginSuccessuccess = logginSuccessuccess;
     }
+
 
     public int getId() {
         return id;
@@ -47,11 +48,11 @@ public class logginSuccess {
         this.password = password;
     }
 
-    public logginSuccess getLogginSuccessuccess() {
+    public users getLogginSuccessuccess() {
         return logginSuccessuccess;
     }
 
-    public void setLogginSuccessuccess(logginSuccess logginSuccessuccess) {
+    public void setLogginSuccessuccess(users logginSuccessuccess) {
         this.logginSuccessuccess = logginSuccessuccess;
     }
 }
