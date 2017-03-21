@@ -9,7 +9,7 @@ import org.sensorsystem.entity.users;
 public interface logginService {
 
     //执行登录操作
-    users logginexecute(int id, String password);
+    boolean logginexecute(int id, String password);
 
     //注册操作
     void register(int id, String name, String password);

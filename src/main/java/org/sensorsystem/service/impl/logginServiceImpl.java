@@ -22,7 +22,6 @@ public class logginServiceImpl implements logginService {
 
     private org.slf4j.Logger logger = LoggerFactory.getLogger(this.getClass());
 
-
     //注入service依赖
     @Autowired
     private loggindao loggindao;
@@ -34,11 +33,16 @@ public class logginServiceImpl implements logginService {
     * 3:不是所有的方法都需要事务,比如只有一条修改操作,只读操作不需要事务控制
     * */
     @Transactional
-    public users logginexecute(int id, String password) {
+    public boolean logginexecute(int id, String password) {
 
         users users = loggindao.check(id, password);
+        if (users != null){
+            //if (users.getUid() == id && users.getPassword().equals(password)){
+                return true;
+            //}
+        }
+        return false;
 
-        return users;
     }
 
     public void register(int id, String name, String password) {
