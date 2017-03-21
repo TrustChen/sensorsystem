@@ -69,24 +69,22 @@
                 <legend>
 
                     <br><br>
-                    <form class="pure-form pure-form-stacked">
+                    <form class="pure-form pure-form-stacked" action="<%=request.getContextPath()%>/users/register" method="post">
                         <fieldset>
-
-
                             <div class="pure-g">
                                 <div class="pure-u-1 pure-u-md-1-3">
                                     <label for="id">账号</label>
-                                    <input id="id" class="pure-u-23-24" type="text" required>
+                                    <input id="id" name="id" class="pure-u-23-24" type="text" required>
                                 </div>
 
                                 <div class="pure-u-1 pure-u-md-1-3">
                                     <label for="password">密码</label>
-                                    <input id="password" class="pure-u-23-24" type="password" required>
+                                    <input id="password" name="password" class="pure-u-23-24" type="password" required>
                                 </div>
 
                                 <div class="pure-u-1 pure-u-md-1-3">
-                                    <label for="email">E-Mail</label>
-                                    <input id="email" class="pure-u-23-24" type="email" required>
+                                    <label for="email">用户名</label>
+                                    <input id="email" name="name" class="pure-u-23-24" type="text" required>
                                 </div>
 
 

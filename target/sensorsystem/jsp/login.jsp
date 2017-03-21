@@ -38,9 +38,7 @@
 
 </head>
 <body>
-<%
-    System.out.print("12312431242442s");
-%>
+
 <div id="layout">
     <!-- Menu toggle -->
     <a href="#menu" id="menuLink" class="menu-link">
@@ -69,7 +67,7 @@
         <div class="header">
 
             <h1>用户管理</h1>
-            <h2>没有注册的用户点击<a href="#">注册</a></h2>
+            <h2>没有注册的用户点击<a href="http://localhost:8080/sensor/jsp/register.jsp">注册</a></h2>
         </div>
 
         <div class="content">
@@ -86,7 +84,7 @@
                                 <input id="remember" type="checkbox"> 记住我
                             </label>
 
-                            <input type="submit" name="submit" class="pure-button pure-button-primary">登录</input>
+                            <button type="submit" name="submit" class="pure-button pure-button-primary">登录</button>
                         </div>
                         <br><br><br><br>
                     </legend>

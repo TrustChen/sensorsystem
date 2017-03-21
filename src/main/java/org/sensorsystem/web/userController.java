@@ -3,10 +3,12 @@ package org.sensorsystem.web;
 import org.sensorsystem.dao.userdao.loggindao;
 import org.sensorsystem.entity.users;
 import org.sensorsystem.service.logginService;
+import org.sensorsystem.service.registerService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
+import org.springframework.stereotype.Service;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
@@ -39,6 +41,19 @@ public class userController {
         }else{
             return "error";
         }
+
+    }
+
+
+
+    private registerService registerService;
+
+    @RequestMapping(value = "/register", method = RequestMethod.POST)
+    public String register(@RequestParam("id") int id,@RequestParam("name") String name, @RequestParam("password") String password){
+
+        System.out.println(id + ":" + name +":"+ password);
+        registerService.insertUsers(id,name,password);
+        return "login";
 
     }
 
