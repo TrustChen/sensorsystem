@@ -17,7 +17,6 @@
     <link rel="stylesheet" href="https://unpkg.com/purecss@0.6.2/build/pure-min.css" integrity="sha384-" crossorigin="anonymous">
 
 
-
     <!--[if lte IE 8]>
     <link rel="stylesheet" href="../css/layouts/side-menu-old-ie.css">
     <![endif]-->
@@ -76,47 +75,37 @@
         <div class="content">
             <br/><br/>
             <div id="biaoge">
-            <table class="pure-table">
-                <thead>
-                <tr>
-                    <th>#</th>
-                    <th>Name</th>
-                    <th>Date</th>
-                    <th>Time</th>
-                    <th>Data</th>
-                    <th>Unit</th>
-                </tr>
-                </thead>
-
-                <tbody>
-                    <tr class="pure-table-odd">
-                        <td>1</td>
-                        <td>2</td>
-                        <td>3</td>
-                        <td>4</td>
-                        <td>5</td>
-                        <td>6</td>
+                <table class="pure-table">
+                    <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>Name</th>
+                        <th>Date</th>
+                        <th>Time</th>
+                        <th>Data</th>
+                        <th>Unit</th>
                     </tr>
+                    </thead>
 
-                    <c:forEach var="s" items="${sensordata}">
-                        <tr class="pure-table-odd">
-                            <td>${s.id}</td>
-                            <td>${s.name}</td>
-                            <td>${s.date}</td>
-                            <td>${s.time}</td>
-                            <td>${s.data}</td>
-                            <td>${s.unit}</td>
-                        </tr>
-                    </c:forEach>
+                    <tbody>
 
-                </tbody>
-            </table>
+                        <c:forEach var="s" items="${sensordata}">
+                            <tr class="pure-table-odd">
+                                <td>${s.id}</td>
+                                <td>${s.name}</td>
+                                <td>${s.date}</td>
+                                <td>${s.time}</td>
+                                <td>${s.data}</td>
+                                <td>${s.unit}</td>
+                            </tr>
+                        </c:forEach>
+
+                    </tbody>
+                </table>
             </div>
         </div>
     </div>
 </div>
-
-
 
 
 <script src="/js/ui.js"></script>

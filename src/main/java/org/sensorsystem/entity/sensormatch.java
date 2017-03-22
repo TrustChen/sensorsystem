@@ -3,7 +3,7 @@ package org.sensorsystem.entity;
 /**
  * Created by chen on 2017/3/13.
  */
-public class match {
+public class sensormatch {
 
     private int uid;
 
@@ -47,7 +47,7 @@ public class match {
 
     @Override
     public String toString() {
-        return "match{" +
+        return "sensormatch{" +
                 "uid=" + uid +
                 ", sid=" + sid +
                 ", group=" + group +

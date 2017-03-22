@@ -1,6 +1,5 @@
 package org.sensorsystem.web;
 
-import org.sensorsystem.dao.userdao.loggindao;
 import org.sensorsystem.service.logginService;
 import org.sensorsystem.service.registerService;
 import org.slf4j.Logger;
@@ -10,6 +9,8 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
+
+import javax.servlet.http.HttpSession;
 
 /**
  * Created by chen on 2017/3/20.
@@ -25,13 +26,14 @@ public class userController {
     private logginService logginService;
 
     @RequestMapping(value = "/login",method = RequestMethod.POST)
-    public String login(@RequestParam("id") int id,@RequestParam("password") String password){
+    public String login(@RequestParam("id") int id, @RequestParam("password") String password, HttpSession session){
 
         System.out.println(id + ":" + password);
         boolean loginType = logginService.logginexecute(id,password);
         if (loginType){
             //并跳转到success.jsp页面
-            return "success";
+            session.setAttribute("uid",id);
+            return "redirect:/sensor/dataquery";
         }else{
             return "error";
         }
@@ -40,6 +42,7 @@ public class userController {
 
 
 
+    @Autowired
     private registerService registerService;
 
     @RequestMapping(value = "/register", method = RequestMethod.POST)

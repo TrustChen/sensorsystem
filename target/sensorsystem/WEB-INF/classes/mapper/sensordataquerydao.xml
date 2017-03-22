@@ -8,12 +8,10 @@
 
 
     <select id="querySensorData" resultType="sensordata">
-
-        select *
-        from sensordata sd,match m
-        WHERE sd.id = m.sid
-        AND m.uid = #{id}
-
+        SELECT * from sensordata sd
+        WHERE sd.id IN
+      (SELECT sd1.id from sensordata sd1, sensormatch m
+      WHERE sd1.id=m.sid and m.uid = #{id} )
     </select>
 
 

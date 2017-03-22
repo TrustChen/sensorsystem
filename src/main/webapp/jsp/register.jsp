@@ -71,11 +71,7 @@
         </div>
 
         <div class="content">
-
-            <form class="pure-form">
-
                 <legend>
-
                     <br><br>
                     <form class="pure-form pure-form-stacked" method="post" action="<%=request.getContextPath()%>/users/register">
                         <fieldset>
@@ -107,7 +103,6 @@
                     <br><br>
                 </legend>
 
-            </form>
 
         </div>
     </div>
