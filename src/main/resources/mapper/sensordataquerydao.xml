@@ -10,11 +10,11 @@
     <select id="querySensorData" resultType="sensordata">
 
         select *
-        from sensordata
-        WHERE
+        from sensordata sd,match m
+        WHERE sd.id = m.sid
+        AND m.uid = #{id}
 
     </select>
-
 
 
 </mapper>

@@ -45,6 +45,7 @@ public class logginServiceImpl implements logginService {
 
     }
 
+    @Transactional
     public void register(int id, String name, String password) {
 
         loggindao.insertUsers(id, name, password);

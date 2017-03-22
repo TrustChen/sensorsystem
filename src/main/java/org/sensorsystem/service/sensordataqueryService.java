@@ -2,11 +2,13 @@ package org.sensorsystem.service;
 
 import org.sensorsystem.entity.sensordata;
 
+import java.util.List;
+
 /**
  * Created by chen on 2017/3/21.
  */
 public interface sensordataqueryService {
 
-    sensordata sensordataquery(int sid);
+    List<sensordata> sensordataquery(int sid);
 
 }

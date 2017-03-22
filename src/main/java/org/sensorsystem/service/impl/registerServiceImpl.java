@@ -3,11 +3,14 @@ package org.sensorsystem.service.impl;
 import org.sensorsystem.dao.userdao.loggindao;
 import org.sensorsystem.service.registerService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 /**
  * Created by chen on 2017/3/21.
  */
+
+@Service
 public class registerServiceImpl implements registerService {
 
     @Autowired

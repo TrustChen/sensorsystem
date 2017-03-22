@@ -34,6 +34,10 @@
         .content{
             text-align:center;
         }
+
+        .pure-menu-item {
+            height: auto;
+        }
     </style>
 
 </head>
