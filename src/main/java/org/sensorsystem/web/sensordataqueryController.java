@@ -20,15 +20,12 @@ import java.util.List;
 public class sensordataqueryController {
 
     @Autowired
-    private
-    sensordataqueryService sensordataqueryService;
+    private sensordataqueryService sensordataqueryService;
 
     @RequestMapping(value = "/dataquery", method = RequestMethod.GET)
     public String querydata(HttpSession session, Model model, HttpServletRequest request){
         List<sensordata> sensordata = sensordataqueryService.sensordataquery((Integer)session.getAttribute("uid"));
         model.addAttribute("sensordata",sensordata);
-
-        System.out.println(sensordata);
 
         return "success";
     }
