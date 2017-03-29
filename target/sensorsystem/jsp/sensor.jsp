@@ -68,7 +68,7 @@
     <div id="main">
         <div class="header">
 
-            <h1>您的传感器</h1>
+            <h1>所有传感器</h1>
             <%--<h2>添加修改传感器<a href="#">点我</a></h2>--%>
         </div>
 
@@ -96,7 +96,7 @@
                             <td>${s.manufacturer}</td>
                             <td>${s.area}</td>
                             <td>${s.partnumber}</td>
-                            <td><button>绑定</button></td>
+                            <td><button onclick="">解绑</button></td>
                         </tr>
                     </c:forEach>
 

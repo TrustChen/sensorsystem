@@ -1,6 +1,6 @@
 package org.sensorsystem.web;
 
-import org.sensorsystem.entity.sensordata;
+
 import org.sensorsystem.entity.sensors;
 import org.sensorsystem.service.sensorqueryService;
 import org.springframework.beans.factory.annotation.Autowired;

@@ -9,11 +9,21 @@ public class unitconversion {
 
     private String unit;
 
-    private String internationalunit;
-
     private float rate;//单位的换算比例
 
-    private int power;//单位的幂次，表示除法的形式
+    private int m;
+
+    private int kg;
+
+    private int s;
+
+    private int a;
+
+    private int k;
+
+    private int mol;
+
+    private int cd;
 
     public int getConversion_id() {
         return conversion_id;
@@ -31,14 +41,6 @@ public class unitconversion {
         this.unit = unit;
     }
 
-    public String getInternationalunit() {
-        return internationalunit;
-    }
-
-    public void setInternationalunit(String internationalunit) {
-        this.internationalunit = internationalunit;
-    }
-
     public float getRate() {
         return rate;
     }
@@ -47,22 +49,62 @@ public class unitconversion {
         this.rate = rate;
     }
 
-    public int getPower() {
-        return power;
+    public int getM() {
+        return m;
     }
 
-    public void setPower(int power) {
-        this.power = power;
+    public void setM(int m) {
+        this.m = m;
     }
 
-    @Override
-    public String toString() {
-        return "unitconversion{" +
-                "conversion_id=" + conversion_id +
-                ", unit='" + unit + '\'' +
-                ", internationalunit='" + internationalunit + '\'' +
-                ", rate=" + rate +
-                ", power=" + power +
-                '}';
+    public int getKg() {
+        return kg;
     }
+
+    public void setKg(int kg) {
+        this.kg = kg;
+    }
+
+    public int getS() {
+        return s;
+    }
+
+    public void setS(int s) {
+        this.s = s;
+    }
+
+    public int getA() {
+        return a;
+    }
+
+    public void setA(int a) {
+        this.a = a;
+    }
+
+    public int getK() {
+        return k;
+    }
+
+    public void setK(int k) {
+        this.k = k;
+    }
+
+    public int getMol() {
+        return mol;
+    }
+
+    public void setMol(int mol) {
+        this.mol = mol;
+    }
+
+    public int getCd() {
+        return cd;
+    }
+
+    public void setCd(int cd) {
+        this.cd = cd;
+    }
+
+
+
 }

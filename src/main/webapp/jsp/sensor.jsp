@@ -96,7 +96,7 @@
                             <td>${s.manufacturer}</td>
                             <td>${s.area}</td>
                             <td>${s.partnumber}</td>
-                            <td><button>绑定</button></td>
+                            <td><button onclick="">解绑</button></td>
                         </tr>
                     </c:forEach>
 
