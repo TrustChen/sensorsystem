@@ -69,7 +69,7 @@
         <div class="header">
 
             <h1>您的传感器</h1>
-            <h2>添加修改传感器<a href="#">点我</a></h2>
+            <h2>添加修改传感器<a href="localhost:8080/sensor/jsp/addsensor.jsp">点我</a></h2>
         </div>
 
         <div class="content">

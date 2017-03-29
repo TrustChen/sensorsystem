@@ -29,7 +29,7 @@ public class sensorqueryController {
         List<sensors> sensors = sensorqueryService.sensorquery();
         model.addAttribute("sensors",sensors);
         System.out.println(sensors);
-        return "sensor";
+        return "redirect:/match/addmatch";
     }
 
 }

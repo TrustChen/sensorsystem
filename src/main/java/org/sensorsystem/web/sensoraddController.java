@@ -28,7 +28,7 @@ public class sensoraddController {
 
         System.out.println(sname + " " + nickname);
         addsensorService.addsensor(sname,nickname,manufacturer,area,partnumber);
-        return "sensor";
+        return "redirect:/sensor/sensorquery";
     }
 
 
