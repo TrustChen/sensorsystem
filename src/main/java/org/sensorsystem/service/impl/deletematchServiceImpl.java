@@ -18,6 +18,7 @@ public class deletematchServiceImpl implements deletematchService {
     @Transactional
     public void deletematch(int uid, int sid) {
 
+        System.out.println("delete : "+ uid + "," + sid);
         matchdeletedao.deletematch(uid,sid);
 
     }

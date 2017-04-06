@@ -96,7 +96,7 @@
                             <td>${s.manufacturer}</td>
                             <td>${s.area}</td>
                             <td>${s.partnumber}</td>
-                            <td><button onclick="">解绑</button></td>
+                            <td><button onclick="deleteSensor(${s.sid})">解绑</button></td>
                         </tr>
                     </c:forEach>
 
@@ -109,7 +109,25 @@
 
 
 <script src="/js/ui.js"></script>
+<script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
 
+<script>
+    function deleteSensor(sid){
+        $.ajax({
+            type: "get",
+            dataType: "html",
+            url: '<%=request.getContextPath()%>/match/deletematch?sid='+sid,
+            success: function (data) {
+                location.href = "<%=request.getContextPath()%>/sensor/sensorquery";
+            },
+            error:function(data){
+                alert(false)
+            }
+        });
+
+
+    }
+</script>
 </body>
 </html>
 

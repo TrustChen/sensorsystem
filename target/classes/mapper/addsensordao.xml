@@ -6,7 +6,7 @@
 
 <mapper namespace="org.sensorsystem.dao.sensordao.sensordao">
 
-    <insert id="insertsensor" parameterType="sensors">
+    <insert id="insertsensor" useGeneratedKeys="true" keyProperty="sid" parameterType="sensors">
 
         insert into
         sensors (sname, nickname, manufacturer,area,partnumber) values(#{sname}, #{nickname}, #{manufacturer},#{area},#{partnumber})

@@ -5,6 +5,6 @@ package org.sensorsystem.service;
  */
 public interface addsensorService {
 
-    void addsensor(String sname, String nickname, String manufacturer,String area,String partnumber);
+    void addsensor(int userId,String sname, String nickname, String manufacturer,String area,String partnumber);
 
 }

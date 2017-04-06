@@ -8,9 +8,8 @@ import java.util.List;
 /**
  * Created by chen on 2017/3/27.
  */
-@Service
 public interface sensorqueryService {
 
-    List<sensors> sensorquery();
+    List<sensors> sensorquery(int uid);
 
 }

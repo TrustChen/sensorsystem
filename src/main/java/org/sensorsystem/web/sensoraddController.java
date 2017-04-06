@@ -8,6 +8,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 
+import javax.servlet.http.HttpSession;
+
 /**
  * Created by chen on 2017/3/27.
  */
@@ -24,10 +26,13 @@ public class sensoraddController {
                           @RequestParam("nickname") String nickname,
                           @RequestParam("manufacturer") String manufacturer,
                           @RequestParam("area") String area,
-                          @RequestParam("partnumber") String partnumber){
+                          @RequestParam("partnumber") String partnumber,
+                            HttpSession session){
 
         System.out.println(sname + " " + nickname);
-        addsensorService.addsensor(sname,nickname,manufacturer,area,partnumber);
+        int userId = (Integer)session.getAttribute("uid");
+        addsensorService.addsensor(userId,sname,nickname,manufacturer,area,partnumber);
+
         return "redirect:/sensor/sensorquery";
     }
 

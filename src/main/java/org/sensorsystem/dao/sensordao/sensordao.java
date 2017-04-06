@@ -10,12 +10,8 @@ import java.util.List;
  */
 public interface sensordao {
 
-    void insertsensor(@Param("sname") String sname,
-                      @Param("nickname") String nickname,
-                      @Param("manufacturer") String manufacturer,
-                      @Param("area") String area,
-                      @Param("partnumber") String partnumber);
+    void insertsensor(sensors sensors);
 
-    List<sensors> querysensor();
+    List<sensors> querysensor(@Param("uid") int uid);
 
 }

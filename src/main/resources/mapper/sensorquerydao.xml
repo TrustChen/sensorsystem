@@ -9,7 +9,7 @@
 
     <select id="querysensor" resultType="sensors">
 
-        SELECT * from sensors
+        SELECT * from sensors s1 where s1.sid in (select sid from sensormatch s2 where s2.uid = #{uid})
 
     </select>
 

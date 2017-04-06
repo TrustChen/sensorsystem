@@ -26,10 +26,11 @@ public class sensorqueryController {
     @RequestMapping(value = "/sensorquery", method = RequestMethod.GET)
     public String querysensor(HttpSession session, Model model, HttpServletRequest request){
 
-        List<sensors> sensors = sensorqueryService.sensorquery();
+        int uid = (Integer) session.getAttribute("uid");
+        List<sensors> sensors = sensorqueryService.sensorquery(uid);
         model.addAttribute("sensors",sensors);
         System.out.println(sensors);
-        return "redirect:/match/addmatch";
+        return "sensor";
     }
 
 }
