@@ -96,6 +96,11 @@
                                 <input id="partnumber" name="partnumber" class="pure-u-23-24" type="text">
                             </div>
 
+                            <div class="pure-u-1 pure-u-md-1-3">
+                                <label for="email">分组</label>
+                                <input id="groupname" name="groupname" class="pure-u-23-24" type="text">
+                            </div>
+
                         </div>
 
 

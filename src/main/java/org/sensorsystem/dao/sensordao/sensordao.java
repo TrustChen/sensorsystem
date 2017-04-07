@@ -14,4 +14,6 @@ public interface sensordao {
 
     List<sensors> querysensor(@Param("uid") int uid);
 
+    List<sensors> querysensorByGroup(@Param("groupname") String groupname,@Param("uid") int uid);
+
 }

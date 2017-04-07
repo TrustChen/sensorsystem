@@ -27,11 +27,12 @@ public class sensoraddController {
                           @RequestParam("manufacturer") String manufacturer,
                           @RequestParam("area") String area,
                           @RequestParam("partnumber") String partnumber,
+                            @RequestParam("groupname") String groupname,
                             HttpSession session){
 
         System.out.println(sname + " " + nickname);
         int userId = (Integer)session.getAttribute("uid");
-        addsensorService.addsensor(userId,sname,nickname,manufacturer,area,partnumber);
+        addsensorService.addsensor(userId,sname,nickname,manufacturer,area,partnumber,groupname);
 
         return "redirect:/sensor/sensorquery";
     }

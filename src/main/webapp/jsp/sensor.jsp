@@ -79,6 +79,7 @@
                         <th>厂商</th>
                         <th>国家</th>
                         <th>型号</th>
+                        <th>组别</th>
                         <th>操作</th>
                     </tr>
                     </thead>
@@ -92,6 +93,7 @@
                             <td>${s.manufacturer}</td>
                             <td>${s.area}</td>
                             <td>${s.partnumber}</td>
+                            <td>${s.groupname}</td>
                             <td><button onclick="deleteSensor(${s.sid})">解绑</button></td>
                         </tr>
                     </c:forEach>
@@ -99,6 +101,25 @@
                     </tbody>
                 </table>
             </div>
+
+
+          <%--  小组查询--%>
+            <form class="pure-form pure-form-stacked" method="post" action="<%=request.getContextPath()%>/sensor/sensorquerybygroup">
+                <fieldset>
+                    <div class="pure-g">
+                        <div class="pure-u-1 pure-u-md-1-3">
+                            <label for="id">按小组查询</label>
+                            <input id="id" name="groupname" class="pure-u-23-24" type="text" required>
+                        </div>
+                    </div>
+
+                    <button type="submit" class="pure-button pure-button-primary">查询</button>
+                </fieldset>
+            </form>
+
+
+
+
         </div>
     </div>
 </div>

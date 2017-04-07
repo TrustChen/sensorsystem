@@ -1,9 +1,8 @@
-<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%--
   Created by IntelliJ IDEA.
   User: chen
-  Date: 2017/3/27
-  Time: 20:41
+  Date: 2017/4/7
+  Time: 15:59
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
@@ -64,7 +63,7 @@
     <div id="main">
         <div class="header">
 
-            <h1>您的所有传感器</h1>
+            <h1>小组查看</h1>
             <%--<h2>添加修改传感器<a href="#">点我</a></h2>--%>
         </div>
 
@@ -86,7 +85,7 @@
 
                     <tbody>
 
-                    <c:forEach var="s" items="${sensors}">
+                    <c:forEach var="s" items="${sensorsbygroup}">
                         <tr class="pure-table-odd">
                             <td>${s.sname}</td>
                             <td>${s.nickname}</td>
@@ -101,24 +100,6 @@
                     </tbody>
                 </table>
             </div>
-
-
-          <%--  小组查询--%>
-            <form class="pure-form pure-form-stacked" method="post" action="<%=request.getContextPath()%>/sensor/sensorquerybygroup">
-                <fieldset>
-                    <div class="pure-g">
-                        <div class="pure-u-1 pure-u-md-1-3">
-                            <label for="id">按小组查询</label>
-                            <input id="id" name="groupname" class="pure-u-23-24" type="text" required>
-                        </div>
-                    </div>
-
-                    <button type="submit" class="pure-button pure-button-primary">查询</button>
-                </fieldset>
-            </form>
-
-
-
 
         </div>
     </div>
@@ -147,7 +128,3 @@
 </script>
 </body>
 </html>
-
-
-
-

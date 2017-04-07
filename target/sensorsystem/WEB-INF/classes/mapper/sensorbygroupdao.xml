@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+
+<mapper namespace="org.sensorsystem.dao.sensordao.sensordao">
+
+
+    <select id="querysensorByGroup" resultType="sensors">
+
+        SELECT * from sensors s, sensormatch m
+        WHERE
+        s.sid = m.sid AND
+        m.uid = #{uid} AND
+        s.groupname = #{groupname}
+
+    </select>
+
+
+</mapper>

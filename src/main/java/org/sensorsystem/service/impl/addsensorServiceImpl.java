@@ -21,7 +21,7 @@ public class addsensorServiceImpl implements addsensorService {
     protected sensormatchdao sensormatchdao;
 
     @Transactional
-    public void addsensor(int userId,String sname, String nickname, String manufacturer, String area, String partnumber) {
+    public void addsensor(int userId,String sname, String nickname, String manufacturer, String area, String partnumber,String groupname) {
 
         sensors sensor = new sensors();
         sensor.setSname(sname);
@@ -29,8 +29,7 @@ public class addsensorServiceImpl implements addsensorService {
         sensor.setManufacturer(manufacturer);
         sensor.setArea(area);
         sensor.setPartnumber(partnumber);
-
-
+        sensor.setGroupname(groupname);
 
         sensordao.insertsensor(sensor);
         System.out.println(sensor);

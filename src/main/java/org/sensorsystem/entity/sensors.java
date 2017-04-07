@@ -17,6 +17,8 @@ public class sensors {
 
     private String partnumber;
 
+    private String groupname;
+
     public int getSid() {
         return sid;
     }
@@ -63,6 +65,14 @@ public class sensors {
 
     public void setPartnumber(String partnumber) {
         this.partnumber = partnumber;
+    }
+
+    public String getGroupname() {
+        return groupname;
+    }
+
+    public void setGroupname(String groupname) {
+        this.groupname = groupname;
     }
 
     @Override

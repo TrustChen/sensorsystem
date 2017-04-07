@@ -9,9 +9,9 @@ public class sensormatch {
 
     private int sid;
 
-    private int group;
+   /* private int group;
 
-    private String groupname;
+    private String groupname;*/
 
     public int getUid() {
         return uid;
@@ -29,7 +29,7 @@ public class sensormatch {
         this.sid = sid;
     }
 
-    public int getGroup() {
+    /*public int getGroup() {
         return group;
     }
 
@@ -43,15 +43,15 @@ public class sensormatch {
 
     public void setGroupname(String groupname) {
         this.groupname = groupname;
-    }
+    }*/
 
     @Override
     public String toString() {
         return "sensormatch{" +
                 "uid=" + uid +
-                ", sid=" + sid +
+                ", sid=" + sid /*+
                 ", group=" + group +
-                ", groupname='" + groupname + '\'' +
+                ", groupname='" + groupname */+ '\'' +
                 '}';
     }
 }
