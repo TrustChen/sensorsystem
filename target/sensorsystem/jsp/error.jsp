@@ -51,14 +51,10 @@
             <a class="pure-menu-heading" href="#">管理系统</a>
 
             <ul class="pure-menu-list">
-                <li class="pure-menu-item"><a href="#" class="pure-menu-link">用户登录</a></li>
-                <li class="pure-menu-item"><a href="#" class="pure-menu-link">设备绑定</a></li>
+                <li class="pure-menu-item"><a href="http://localhost:8080/sensor/jsp/login.jsp" class="pure-menu-link">用户登录</a></li>
 
-                <li class="pure-menu-item" class="menu-item-divided pure-menu-selected">
-                    <a href="#" class="pure-menu-link">查看数据</a>
-                </li>
 
-                <li class="pure-menu-item"><a href="#" class="pure-menu-link">关于我们</a></li>
+                <li class="pure-menu-item"><a href="http://localhost:8080/sensor/html/aboutus.html" class="pure-menu-link">关于我们</a></li>
             </ul>
         </div>
     </div>

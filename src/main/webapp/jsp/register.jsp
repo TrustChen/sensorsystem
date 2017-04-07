@@ -11,7 +11,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="A layout example with a side menu that hides on mobile, just like the Pure website.">
-    <title>Responsive Side Menu &ndash; Layout Examples &ndash; Pure</title>
+    <title>register</title>
 
     <link rel="stylesheet" href="https://unpkg.com/purecss@0.6.2/build/pure-min.css" integrity="sha384-" crossorigin="anonymous">
 
@@ -35,10 +35,6 @@
 <body>
 
 
-
-
-
-
 <div id="layout">
     <!-- Menu toggle -->
     <a href="#menu" id="menuLink" class="menu-link">
@@ -51,14 +47,9 @@
             <a class="pure-menu-heading" href="#">管理系统</a>
 
             <ul class="pure-menu-list">
-                <li class="pure-menu-item"><a href="#" class="pure-menu-link">用户登录</a></li>
-                <li class="pure-menu-item"><a href="#" class="pure-menu-link">设备绑定</a></li>
+                <li class="pure-menu-item"><a href="http://localhost:8080/sensor/jsp/login.jsp" class="pure-menu-link">用户登录</a></li>
 
-                <li class="pure-menu-item" class="menu-item-divided pure-menu-selected">
-                    <a href="#" class="pure-menu-link">查看数据</a>
-                </li>
-
-                <li class="pure-menu-item"><a href="#" class="pure-menu-link">关于我们</a></li>
+                <li class="pure-menu-item"><a href="http://localhost:8080/sensor/html/aboutus.html" class="pure-menu-link">关于我们</a></li>
             </ul>
         </div>
     </div>
@@ -94,10 +85,10 @@
                             </div>
 
                             <label for="terms" class="pure-checkbox">
-                                <input id="terms" type="checkbox" required> I've read the terms and conditions
+                                <input id="terms" type="checkbox" required> 我已阅读相关条款和细则
                             </label>
 
-                            <button type="submit" class="pure-button pure-button-primary">Submit</button>
+                            <button type="submit" class="pure-button pure-button-primary">提交</button>
                         </fieldset>
                     </form>
                     <br><br>

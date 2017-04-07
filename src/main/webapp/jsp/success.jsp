@@ -12,7 +12,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="A layout example with a side menu that hides on mobile, just like the Pure website.">
-    <title>Responsive Side Menu &ndash; Layout Examples &ndash; Pure</title>
+    <title>登录成功、数据查询</title>
 
     <link rel="stylesheet" href="https://unpkg.com/purecss@0.6.2/build/pure-min.css" integrity="sha384-" crossorigin="anonymous">
 
@@ -40,7 +40,6 @@
 
 </head>
 <body>
-登陆成功！
 <div id="layout">
     <!-- Menu toggle -->
     <a href="#menu" id="menuLink" class="menu-link">
@@ -53,14 +52,11 @@
             <a class="pure-menu-heading" href="#">管理系统</a>
 
             <ul class="pure-menu-list">
-                <li class="pure-menu-item"><a href="#" class="pure-menu-link">用户登录</a></li>
-                <li class="pure-menu-item"><a href="#" class="pure-menu-link">设备绑定</a></li>
 
-                <li class="pure-menu-item" class="menu-item-divided pure-menu-selected">
-                    <a href="#" class="pure-menu-link">查看数据</a>
-                </li>
+                <li class="pure-menu-item"><a href="http://localhost:8080/sensor/jsp/login.jsp" class="pure-menu-link">切换用户</a></li>
 
-                <li class="pure-menu-item"><a href="#" class="pure-menu-link">关于我们</a></li>
+                <li class="pure-menu-item"><a href="http://localhost:8080/sensor/html/aboutus.html" class="pure-menu-link">关于我们</a></li>
+
             </ul>
         </div>
     </div>
@@ -68,8 +64,8 @@
     <div id="main">
         <div class="header">
 
-            <h1>您的传感器</h1>
-            <h2>添加修改传感器<a href="<%=request.getContextPath()%>/jsp/addsensor.jsp">点我</a></h2>
+            <h1>您的传感器所有数据</h1>
+            <h2>添加新的传感器<a href="<%=request.getContextPath()%>/jsp/addsensor.jsp">点我</a></h2>
         </div>
 
         <div class="content">
