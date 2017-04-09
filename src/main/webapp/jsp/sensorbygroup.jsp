@@ -80,6 +80,7 @@
                         <th>型号</th>
                         <th>组别</th>
                         <th>操作</th>
+                        <th>操作</th>
                     </tr>
                     </thead>
 
@@ -94,6 +95,7 @@
                             <td>${s.partnumber}</td>
                             <td>${s.groupname}</td>
                             <td><button onclick="deleteSensor(${s.sid})">解绑</button></td>
+                            <td><button onclick="checkData(${s.sid})">查看数据</button></td>
                         </tr>
                     </c:forEach>
 
@@ -122,9 +124,8 @@
                 alert(false)
             }
         });
-
-
     }
+
 </script>
 </body>
 </html>
