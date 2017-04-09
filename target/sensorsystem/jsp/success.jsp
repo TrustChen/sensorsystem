@@ -75,11 +75,12 @@
                     <thead>
                     <tr>
                         <th>#</th>
-                        <th>Name</th>
-                        <th>Date</th>
-                        <th>Time</th>
-                        <th>Data</th>
-                        <th>Unit</th>
+                        <th>名字</th>
+                        <th>日期</th>
+                        <th>时间</th>
+                        <th>数值</th>
+                        <th>单位</th>
+                        <th>操作</th>
                     </tr>
                     </thead>
 
@@ -87,14 +88,16 @@
 
                         <c:forEach var="s" items="${sensordata}">
                             <tr class="pure-table-odd">
-                                <td>${s.id}</td>
+                                <td>${s.sid}</td>
                                 <td>${s.name}</td>
                                 <td>${s.date}</td>
                                 <td>${s.time}</td>
                                 <td>${s.data}</td>
                                 <td>${s.unit}</td>
+                                <td><a href="<%=request.getContextPath()%>/sensor/dataquerychart?sid=${s.sid}">查看图表</a></td>
                             </tr>
                         </c:forEach>
+
 
                     </tbody>
                 </table>

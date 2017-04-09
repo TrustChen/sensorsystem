@@ -20,8 +20,8 @@ public class sensordataqueryServiceImpl implements sensordataqueryService {
     private sensordatadao sensordatadao;
 
     @Transactional
-    public List<sensordata> sensordataquery(int id) {
+    public List<sensordata> sensordataquery(int uid,int sid) {
 
-        return sensordatadao.querySensorData(id);
+        return sensordatadao.querySensorData(uid,sid);
     }
 }

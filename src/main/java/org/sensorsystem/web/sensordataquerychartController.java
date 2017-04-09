@@ -1,6 +1,5 @@
 package org.sensorsystem.web;
 
-import org.apache.ibatis.annotations.Param;
 import org.sensorsystem.entity.sensordata;
 import org.sensorsystem.service.sensordataqueryService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -15,22 +14,21 @@ import javax.servlet.http.HttpSession;
 import java.util.List;
 
 /**
- * Created by chen on 2017/3/22.
+ * Created by chen on 2017/4/9.
  */
-
 @Controller
 @RequestMapping("/sensor")
-public class sensordataqueryController {
+public class sensordataquerychartController {
 
     @Autowired
-    private sensordataqueryService sensordataqueryService;
+    private org.sensorsystem.service.sensordataqueryService sensordataqueryService;
 
-    @RequestMapping(value = "/dataquery", method = RequestMethod.GET)
+    @RequestMapping(value = "/dataquerychart", method = RequestMethod.GET)
     public String querydata(@RequestParam("sid") int sid, HttpSession session, Model model, HttpServletRequest request){
         List<sensordata> sensordata = sensordataqueryService.sensordataquery((Integer)session.getAttribute("uid"),sid);
         model.addAttribute("sensordata",sensordata);
 
-        return "success";
+        return "chart";
     }
 
 }

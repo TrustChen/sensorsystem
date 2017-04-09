@@ -16,6 +16,7 @@ public class sensordata {
     private Time time;
     private float data;
     private String unit;
+    private int sid;
 
     public int getId() {
         return id;
@@ -63,6 +64,14 @@ public class sensordata {
 
     public void setUnit(String unit) {
         this.unit = unit;
+    }
+
+    public int getSid() {
+        return sid;
+    }
+
+    public void setSid(int sid) {
+        this.sid = sid;
     }
 
     @Override

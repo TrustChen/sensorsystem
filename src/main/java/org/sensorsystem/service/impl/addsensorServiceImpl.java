@@ -21,9 +21,10 @@ public class addsensorServiceImpl implements addsensorService {
     protected sensormatchdao sensormatchdao;
 
     @Transactional
-    public void addsensor(int userId,String sname, String nickname, String manufacturer, String area, String partnumber,String groupname) {
+    public void addsensor(int sid,int userId,String sname, String nickname, String manufacturer, String area, String partnumber,String groupname) {
 
         sensors sensor = new sensors();
+        sensor.setSid(sid);
         sensor.setSname(sname);
         sensor.setNickname(nickname);
         sensor.setManufacturer(manufacturer);

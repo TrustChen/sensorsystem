@@ -22,7 +22,7 @@ public class sensordatadaoTest {
 
     @Test
     public void querySensorData() throws Exception {
-        System.out.println(sensordatadao.querySensorData(1));
+        System.out.println(sensordatadao.querySensorData(1,1));
     }
 
 }

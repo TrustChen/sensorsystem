@@ -72,8 +72,13 @@
                     <fieldset>
                         <div class="pure-g">
                             <div class="pure-u-1 pure-u-md-1-3">
+                                <label for="email">传感器编号</label>
+                                <input id="sid" name="sid" class="pure-u-23-24" type="text">
+                            </div>
+
+                            <div class="pure-u-1 pure-u-md-1-3">
                                 <label for="email">名字</label>
-                                <input id="email" name="sname" class="pure-u-23-24" type="text">
+                                <input id="sname" name="sname" class="pure-u-23-24" type="text">
                             </div>
 
                             <div class="pure-u-1 pure-u-md-1-3">

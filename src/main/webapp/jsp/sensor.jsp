@@ -96,7 +96,7 @@
                             <td>${s.partnumber}</td>
                             <td>${s.groupname}</td>
                             <td><button onclick="deleteSensor(${s.sid})">解绑</button></td>
-                            <td><button onclick="checkData(${s.sid})">数据详细</button></td>
+                            <td><a href="<%=request.getContextPath()%>/sensor/dataquery?sid=${s.sid}">数据详细</a></td>
                         </tr>
                     </c:forEach>
 

@@ -22,7 +22,8 @@ public class sensoraddController {
 
 
     @RequestMapping(value = "/addsensor", method = RequestMethod.POST)
-    public String addsensor(@RequestParam("sname") String sname,
+    public String addsensor(@RequestParam("sid") int sid,
+                            @RequestParam("sname") String sname,
                           @RequestParam("nickname") String nickname,
                           @RequestParam("manufacturer") String manufacturer,
                           @RequestParam("area") String area,
@@ -32,7 +33,7 @@ public class sensoraddController {
 
         System.out.println(sname + " " + nickname);
         int userId = (Integer)session.getAttribute("uid");
-        addsensorService.addsensor(userId,sname,nickname,manufacturer,area,partnumber,groupname);
+        addsensorService.addsensor(sid,userId,sname,nickname,manufacturer,area,partnumber,groupname);
 
         return "redirect:/sensor/sensorquery";
     }

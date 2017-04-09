@@ -33,7 +33,7 @@ public class userController {
         if (loginType){
             //并跳转到success.jsp页面
             session.setAttribute("uid",id);
-            return "redirect:/sensor/dataquery";
+            return "redirect:/sensor/sensorquery";
         }else{
             return "error";
         }

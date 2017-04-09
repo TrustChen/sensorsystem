@@ -1,3 +1,4 @@
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%--
   Created by IntelliJ IDEA.
   User: chen
@@ -54,7 +55,6 @@
             <ul class="pure-menu-list">
                 <li class="pure-menu-item"><a href="http://localhost:8080/sensor/jsp/login.jsp" class="pure-menu-link">用户切换</a></li>
 
-
                 <li class="pure-menu-item"><a href="http://localhost:8080/sensor/html/aboutus.jsp" class="pure-menu-link">关于我们</a></li>
             </ul>
         </div>
@@ -95,7 +95,7 @@
                             <td>${s.partnumber}</td>
                             <td>${s.groupname}</td>
                             <td><button onclick="deleteSensor(${s.sid})">解绑</button></td>
-                            <td><button onclick="checkData(${s.sid})">查看数据</button></td>
+                            <td><a href="<%=request.getContextPath()%>/sensor/dataquery?sid=${s.sid}">查看详细</a></td>
                         </tr>
                     </c:forEach>
 

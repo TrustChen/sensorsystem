@@ -9,7 +9,7 @@
     <insert id="insertsensor" useGeneratedKeys="true" keyProperty="sid" parameterType="sensors">
 
         insert into
-        sensors (sname, nickname, manufacturer,area,partnumber,groupname) values(#{sname}, #{nickname}, #{manufacturer},#{area},#{partnumber},#{groupname})
+        sensors (sid,sname, nickname, manufacturer,area,partnumber,groupname) values(#{sid},#{sname}, #{nickname}, #{manufacturer},#{area},#{partnumber},#{groupname})
 
     </insert>
 

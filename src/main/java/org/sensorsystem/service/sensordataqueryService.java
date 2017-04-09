@@ -9,6 +9,6 @@ import java.util.List;
  */
 public interface sensordataqueryService {
 
-    List<sensordata> sensordataquery(int sid);
+    List<sensordata> sensordataquery(int uid,int sid);
 
 }

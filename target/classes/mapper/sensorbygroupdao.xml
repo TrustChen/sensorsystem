@@ -14,7 +14,6 @@
         s.sid = m.sid AND
         m.uid = #{uid} AND
         s.groupname = #{groupname}
-
     </select>
 
 
