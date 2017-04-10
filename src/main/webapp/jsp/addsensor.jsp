@@ -53,6 +53,10 @@
             <ul class="pure-menu-list">
                 <li class="pure-menu-item"><a href="http://localhost:8080/sensor/jsp/login.jsp" class="pure-menu-link">用户切换</a></li>
 
+                <li class="pure-menu-item"><a href="http://localhost:8080/sensor/jsp/addunit.jsp" class="pure-menu-link">添加单位</a></li>
+
+                <li class="pure-menu-item"><a href="<%=request.getContextPath()%>/sensor/sensorquery" class="pure-menu-link">我的传感器</a></li>
+
                 <li class="pure-menu-item"><a href="http://localhost:8080/sensor/html/aboutus.html" class="pure-menu-link">关于我们</a></li>
             </ul>
         </div>

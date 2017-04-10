@@ -1,6 +1,9 @@
 package org.sensorsystem.dao.unitdao;
 
 import org.apache.ibatis.annotations.Param;
+import org.sensorsystem.entity.unitconversion;
+
+import java.util.List;
 
 /**
  * Created by chen on 2017/3/29.
@@ -16,5 +19,7 @@ public interface unitdao {
                     @Param("k") int k,
                     @Param("mol") int mol,
                     @Param("cd") int cd);
+
+    List<unitconversion> queryunit();
 
 }

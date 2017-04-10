@@ -65,7 +65,7 @@
         <div class="header">
 
             <h1>您的所有传感器</h1>
-            <%--<h2>添加修改传感器<a href="#">点我</a></h2>--%>
+            <h2>添加新的传感器<a href="<%=request.getContextPath()%>/jsp/addsensor.jsp">点我</a></h2>
         </div>
 
         <div class="content">
