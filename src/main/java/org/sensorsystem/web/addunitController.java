@@ -1,6 +1,7 @@
 package org.sensorsystem.web;
 
 import org.sensorsystem.service.addunitService;
+import org.sensorsystem.service.unitqueryService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -17,6 +18,7 @@ public class addunitController {
     @Autowired
     private addunitService addunitService;
 
+
     @RequestMapping(value = "/addunit", method = RequestMethod.POST)
     public String addunit(@RequestParam("unit") String unit,
                           @RequestParam("rate") float rate,
@@ -30,7 +32,7 @@ public class addunitController {
 
         addunitService.addunit(unit,rate,m,kg,s,a,k,mol,cd);
 
-        return "addunit";
+        return "redirect:/unit/unitquery";
 
     }
 

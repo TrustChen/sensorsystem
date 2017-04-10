@@ -37,23 +37,41 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="unitdao.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/org/sensorsystem/dao/unitdao/unitdao.java">
+      <file leaf-file-name="addsensor.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/addsensor.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="437">
-              <caret line="22" column="35" lean-forward="true" selection-start-line="22" selection-start-column="35" selection-end-line="22" selection-end-column="35" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="167">
+              <caret line="57" column="16" lean-forward="true" selection-start-line="57" selection-start-column="16" selection-end-line="57" selection-end-column="139" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sensordao.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/org/sensorsystem/dao/sensordao/sensordao.java">
+      <file leaf-file-name="queryunit.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/queryunit.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="14" column="30" lean-forward="false" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
+            <state relative-caret-position="397">
+              <caret line="56" column="16" lean-forward="true" selection-start-line="56" selection-start-column="16" selection-end-line="56" selection-end-column="139" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="addunit.jsp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/addunit.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="351">
+              <caret line="49" column="139" lean-forward="false" selection-start-line="49" selection-start-column="139" selection-end-line="49" selection-end-column="139" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sensor.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/sensor.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1012">
+              <caret line="89" column="50" lean-forward="true" selection-start-line="89" selection-start-column="50" selection-end-line="89" selection-end-column="50" />
               <folding />
             </state>
           </provider>
@@ -96,12 +114,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/org/sensorsystem/dao/sensordao/sensormatchdao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/sensorsystem/service/impl/addmatchServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/sensorsystem/web/addmatchController.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/mapper/addmatchdao.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/org/sensorsystem/dao/sensordao/matchdeletedao.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/src/main/java/org/sensorsystem/web/deletematchController.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/sensorsystem/service/deletematchService.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/sensorsystem/service/addmatchService.java" />
@@ -117,11 +129,9 @@
         <option value="$PROJECT_DIR$/src/main/webapp/jsp/login.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/jsp/register.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/jsp/error.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/jsp/addunit.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/org/sensorsystem/entity/sensors.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/sensorsystem/entity/sensormatch.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/sensorsystem/service/impl/sensorqueryByGroup.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/sensorsystem/dao/sensordao/sensordao.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/sensorsystem/service/sensorqueryByGroupService.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/sensorsystem/service/impl/sensorqueryByGroupServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/sensorsystem/web/sensorqueryByGroupController.java" />
@@ -146,7 +156,15 @@
         <option value="$PROJECT_DIR$/src/main/resources/mapper/addsensordao.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/jsp/sensor.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/jsp/addsensor.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/org/sensorsystem/dao/sensordao/sensordao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/sensorsystem/service/unitqueryService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/sensorsystem/service/impl/unitqueryServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/sensorsystem/web/unitqueryController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/sensorsystem/web/addunitController.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/sensorsystem/dao/unitdao/unitdao.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/mapper/unitquerydao.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/jsp/queryunit.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/jsp/addunit.jsp" />
       </list>
     </option>
   </component>
@@ -1544,7 +1562,7 @@
       <workItem from="1491716450358" duration="1443000" />
       <workItem from="1491744983490" duration="5013000" />
       <workItem from="1491751854723" duration="982000" />
-      <workItem from="1491805411424" duration="991000" />
+      <workItem from="1491805411424" duration="5415000" />
     </task>
     <servers />
   </component>
@@ -1581,7 +1599,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="135319000" />
+    <option name="totallyTimeSpent" value="139743000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1610,7 +1628,7 @@
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24262296" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295082" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.4628752" sideWeight="0.49707174" order="8" side_tool="false" content_ui="tabs" x="9" y="686" width="1344" height="6" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.4628752" sideWeight="0.49707174" order="8" side_tool="false" content_ui="tabs" x="9" y="540" width="1344" height="154" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295082" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -1619,7 +1637,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="WINDOWED" visible="false" show_stripe_button="true" weight="0.10327869" sideWeight="0.8664643" order="2" side_tool="false" content_ui="tabs" x="17" y="363" width="1318" height="197" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295082" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28360656" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2579425" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2881997" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -1649,45 +1667,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/sensorsystem/service/registerService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="7" column="30" lean-forward="false" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/sensorsystem/service/deletematchService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" column="3" lean-forward="false" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/logbank.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-693">
-          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="13" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/sensorsystem/service/impl/deletematchServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="18" column="18" lean-forward="false" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/sensorsystem/dao/sensordao/matchdeletedao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="9" column="9" lean-forward="false" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/0a2f5d27-47ba-47f9-af10-bb50711f372a/console_4.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="69">
@@ -1730,12 +1709,12 @@
         <state relative-caret-position="241">
           <caret line="55" column="5" lean-forward="true" selection-start-line="55" selection-start-column="5" selection-end-line="55" selection-end-column="5" />
           <folding>
-            <marker date="1491548761789" expanded="false" signature="469:480" ph=" { " />
-            <marker date="1491548761789" expanded="false" signature="493:499" ph=" }" />
-            <marker date="1491548761789" expanded="false" signature="536:547" ph=" { " />
-            <marker date="1491548761789" expanded="false" signature="566:572" ph=" }" />
-            <marker date="1491548761789" expanded="false" signature="606:617" ph=" { " />
-            <marker date="1491548761789" expanded="false" signature="634:640" ph=" }" />
+            <marker date="1491808650807" expanded="false" signature="469:480" ph=" { " />
+            <marker date="1491808650807" expanded="false" signature="493:499" ph=" }" />
+            <marker date="1491808650807" expanded="false" signature="536:547" ph=" { " />
+            <marker date="1491808650807" expanded="false" signature="566:572" ph=" }" />
+            <marker date="1491808650807" expanded="false" signature="606:617" ph=" { " />
+            <marker date="1491808650807" expanded="false" signature="634:640" ph=" }" />
           </folding>
         </state>
       </provider>
@@ -1753,7 +1732,7 @@
         <state relative-caret-position="276">
           <caret line="12" column="13" lean-forward="true" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
           <folding>
-            <marker date="1491487533194" expanded="true" signature="300:375" ph="delete from " />
+            <marker date="1491808650197" expanded="true" signature="300:375" ph="delete from " />
           </folding>
         </state>
       </provider>
@@ -1774,33 +1753,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/sensorsystem/service/impl/sensorqueryServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="22" column="42" lean-forward="false" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="42" />
-          <folding>
-            <element signature="e#614#615#0" expanded="false" />
-            <element signature="e#663#664#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/loggindao.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1489540562529" expanded="true" signature="288:372" ph="insert into users" />
-            <marker date="1489540562529" expanded="true" signature="442:530" ph="select * fro... users" />
+            <marker date="1491808647713" expanded="true" signature="288:372" ph="insert into users" />
+            <marker date="1491808647713" expanded="true" signature="442:530" ph="select * fro... users" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/register.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="92" column="27" lean-forward="true" selection-start-line="66" selection-start-column="20" selection-end-line="92" selection-end-column="27" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1819,19 +1779,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/sensorquerydao.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding>
-            <marker date="1491488445293" expanded="true" signature="290:304" ph="SELECT * fro... sensors" />
-            <marker date="1491488445293" expanded="true" signature="290:385" ph="SELECT * fro... sensors" />
-            <marker date="1491488445293" expanded="true" signature="290:386" ph="SELECT * fro... sensordata" />
-            <marker date="1491488445293" expanded="true" signature="332:384" ph="select sid f... sensormatch" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/0a2f5d27-47ba-47f9-af10-bb50711f372a/console.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="138">
@@ -1844,7 +1791,7 @@
         <state relative-caret-position="276">
           <caret line="15" column="34" lean-forward="true" selection-start-line="11" selection-start-column="7" selection-end-line="15" selection-end-column="34" />
           <folding>
-            <marker date="1491747064652" expanded="true" signature="297:437" ph="SELECT * fro... sensors" />
+            <marker date="1491808651382" expanded="true" signature="297:437" ph="SELECT * fro... sensors" />
           </folding>
         </state>
       </provider>
@@ -1861,14 +1808,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="231">
           <caret line="13" column="10" lean-forward="true" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/sensorsystem/web/userController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="35" column="41" lean-forward="true" selection-start-line="35" selection-start-column="41" selection-end-line="35" selection-end-column="41" />
           <folding />
         </state>
       </provider>
@@ -1913,16 +1852,8 @@
         <state relative-caret-position="115">
           <caret line="11" column="18" lean-forward="true" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
           <folding>
-            <marker date="1491748167947" expanded="true" signature="300:357" ph="SELECT * fro... sensordata" />
+            <marker date="1491808651385" expanded="true" signature="300:357" ph="SELECT * fro... sensordata" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/sensorsystem/service/sensorqueryService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1939,16 +1870,8 @@
         <state relative-caret-position="345">
           <caret line="26" column="56" lean-forward="false" selection-start-line="26" selection-start-column="41" selection-end-line="26" selection-end-column="56" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/sensorsystem/web/sensorqueryController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="32" column="24" lean-forward="false" selection-start-line="32" selection-start-column="24" selection-end-line="32" selection-end-column="24" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1957,7 +1880,7 @@
         <state relative-caret-position="460">
           <caret line="32" column="20" lean-forward="false" selection-start-line="32" selection-start-column="20" selection-end-line="32" selection-end-column="20" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -2011,7 +1934,7 @@
         <state relative-caret-position="253">
           <caret line="11" column="92" lean-forward="false" selection-start-line="11" selection-start-column="92" selection-end-line="11" selection-end-column="92" />
           <folding>
-            <marker date="1491752631803" expanded="true" signature="335:513" ph="insert into sensors" />
+            <marker date="1491808651378" expanded="true" signature="335:513" ph="insert into sensors" />
           </folding>
         </state>
       </provider>
@@ -2024,42 +1947,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/sensor.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="328">
-          <caret line="98" column="77" lean-forward="false" selection-start-line="98" selection-start-column="41" selection-end-line="98" selection-end-column="77" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/chart.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="322">
           <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/addunit.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="98">
-          <caret line="66" column="116" lean-forward="true" selection-start-line="66" selection-start-column="116" selection-end-line="66" selection-end-column="116" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/sensorsystem/web/addunitController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="25" column="51" lean-forward="true" selection-start-line="25" selection-start-column="51" selection-end-line="25" selection-end-column="51" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/addsensor.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
-          <caret line="74" column="115" lean-forward="false" selection-start-line="74" selection-start-column="115" selection-end-line="74" selection-end-column="115" />
           <folding />
         </state>
       </provider>
@@ -2072,10 +1963,86 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/sensorsystem/dao/unitdao/unitdao.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/sensorsystem/service/sensorqueryService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="22" column="35" lean-forward="true" selection-start-line="22" selection-start-column="35" selection-end-line="22" selection-end-column="35" />
+        <state relative-caret-position="161">
+          <caret line="10" column="17" lean-forward="false" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/sensorsystem/service/impl/sensorqueryServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="20" column="18" lean-forward="false" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
+          <folding>
+            <element signature="e#614#615#0" expanded="true" />
+            <element signature="e#663#664#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/sensorsystem/service/impl/unitqueryServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="20" column="18" lean-forward="true" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/sensorquerydao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="14" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="16" selection-end-column="9" />
+          <folding>
+            <marker date="1491808650200" expanded="true" signature="290:304" ph="SELECT * fro... sensors" />
+            <marker date="1491808650200" expanded="true" signature="290:385" ph="SELECT * fro... sensors" />
+            <marker date="1491808650200" expanded="true" signature="290:386" ph="SELECT * fro... sensordata" />
+            <marker date="1491808650200" expanded="true" signature="332:384" ph="select sid f... sensormatch" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/register.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1119">
+          <caret line="98" column="10" lean-forward="true" selection-start-line="98" selection-start-column="10" selection-end-line="98" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/sensorsystem/service/unitqueryService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="11" column="25" lean-forward="false" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/sensorsystem/web/sensorqueryController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="25" column="28" lean-forward="false" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/sensorsystem/web/userController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="213">
+          <caret line="35" column="48" lean-forward="false" selection-start-line="35" selection-start-column="20" selection-end-line="35" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/sensorsystem/web/unitqueryController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="268">
+          <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -2084,8 +2051,70 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/sensorsystem/dao/sensordao/sensordao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="14" column="30" lean-forward="false" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
+        <state relative-caret-position="161">
+          <caret line="10" column="17" lean-forward="false" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/sensorsystem/web/addunitController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="35" column="0" lean-forward="true" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/sensorsystem/dao/unitdao/unitdao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="22" column="23" lean-forward="false" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/unitquerydao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" column="55" lean-forward="false" selection-start-line="6" selection-start-column="55" selection-end-line="6" selection-end-column="55" />
+          <folding>
+            <marker date="1491812733545" expanded="true" signature="291:319" ph="SELECT * fro... unitconversion" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/sensor.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1012">
+          <caret line="89" column="50" lean-forward="true" selection-start-line="89" selection-start-column="50" selection-end-line="89" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/queryunit.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="397">
+          <caret line="56" column="16" lean-forward="true" selection-start-line="56" selection-start-column="16" selection-end-line="56" selection-end-column="139" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/addsensor.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="57" column="16" lean-forward="true" selection-start-line="57" selection-start-column="16" selection-end-line="57" selection-end-column="139" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/addunit.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="49" column="139" lean-forward="false" selection-start-line="49" selection-start-column="139" selection-end-line="49" selection-end-column="139" />
           <folding />
         </state>
       </provider>
