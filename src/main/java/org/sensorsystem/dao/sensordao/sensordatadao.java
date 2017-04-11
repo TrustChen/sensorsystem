@@ -12,4 +12,6 @@ public interface sensordatadao {
 
     List<sensordata> querySensorData(@Param("uid") int uid,@Param("sid") int sid);
 
+    void insertSensordata(sensordata sensordata);
+
 }

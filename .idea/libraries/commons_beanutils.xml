@@ -1,0 +1,21 @@
+<component name="libraryTable">
+  <library name="commons-beanutils">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/Desktop/lib/lib/commons-beanutils.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/lib/lib/commons-collections-3.0.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/lib/lib/commons-lang-2.1.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/lib/lib/commons-logging.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/lib/lib/ezmorph-1.0.2.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/lib/lib/json-lib-1.1-jdk13.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/lib/lib/xom-1.0d10.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/httpclient_jar/commons-httpclient-3.0.1.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/httpclient_jar/commons-logging-1.1.1.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/httpclient_jar/commons-codec-1.4.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/d833f1efa83bb333b1c128cb041d5ef9 (1)/httppost和httpget需要的jar包/commons-logging-1.1.1.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/d833f1efa83bb333b1c128cb041d5ef9 (1)/httppost和httpget需要的jar包/httpclient-4.1.2.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/d833f1efa83bb333b1c128cb041d5ef9 (1)/httppost和httpget需要的jar包/httpcore-4.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
