@@ -14,7 +14,7 @@ public class sensordata {
     private String name;
     private Date date;
     private Time time;
-    private float data;
+    private double data;
     private String unit;
     private int sid;
 
@@ -50,11 +50,11 @@ public class sensordata {
         this.time = time;
     }
 
-    public float getData() {
+    public double getData() {
         return data;
     }
 
-    public void setData(float data) {
+    public void setData(double data) {
         this.data = data;
     }
 

@@ -3,7 +3,9 @@ package org.sensorsystem.web;
 
 
 
-import net.sf.json.JSONObject;
+
+import com.alibaba.fastjson.JSONObject;
+import org.sensorsystem.entity.sensordata;
 import org.sensorsystem.service.addSensordataService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -54,16 +56,24 @@ public class addsensordataController {
         reader.close();// 关闭输入流
 
         // 取一个json转换为对象
-        JSONObject jsonObject = JSONObject.fromObject(result);
+        JSONObject jsonObject = JSONObject.parseObject(result.toString());
 
-        String name = jsonObject.getString("name");
-        Date date=new Date(jsonObject.getLong("date"));
-        Time time = new Time(jsonObject.getLong("time"));
-        int data = jsonObject.getInt("data");
-        String unit = jsonObject.getString("unit");
-        int sid = jsonObject.getInt("sid");
 
-        addSensordataService.addSensordata(name,date,time,data,unit,sid);
+        //通过键取到值，再将值封装到类里面
+        sensordata sensordata = new sensordata();
+        sensordata.setName(jsonObject.getString("name"));
+        sensordata.setDate(new Date(Integer.parseInt(jsonObject.getString("date"))));
+        sensordata.setTime(new Time(Integer.parseInt(jsonObject.getString("time"))));
+        sensordata.setData(Double.valueOf(jsonObject.getString("data")));
+        sensordata.setUnit(jsonObject.getString("unit"));
+        sensordata.setSid(Integer.parseInt(jsonObject.getString("sid")));
+
+        addSensordataService.addSensordata(sensordata.getName(),
+                (Date) sensordata.getDate(),
+                sensordata.getTime(),
+                sensordata.getData(),
+                sensordata.getUnit(),
+                sensordata.getSid());
     }
 
 }

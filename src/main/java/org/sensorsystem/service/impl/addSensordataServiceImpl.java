@@ -21,7 +21,7 @@ public class addSensordataServiceImpl implements addSensordataService {
     private sensordatadao sensordatadao;
 
     @Transactional
-    public void addSensordata(String name, Date date, Time time, float data, String unit, int sid) {
+    public void addSensordata(String name, Date date, Time time, double data, String unit, int sid) {
 
         sensordata sensordata = new sensordata();
         sensordata.setName(name);

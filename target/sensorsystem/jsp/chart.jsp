@@ -8,10 +8,13 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <title>Title</title>
+    <title>图表</title>
+
+    <script type="text/javascript" src="../js/d3.js"></script>
 </head>
 <body>
-我是折线图
+
+
 
 </body>
 </html>

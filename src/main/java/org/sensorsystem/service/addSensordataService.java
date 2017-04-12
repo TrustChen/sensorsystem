@@ -10,6 +10,6 @@ import java.sql.Time;
  */
 public interface addSensordataService {
 
-    void addSensordata(String name, Date date, Time time,float data,String unit,int sid);
+    void addSensordata(String name, Date date, Time time,double data,String unit,int sid);
 
 }

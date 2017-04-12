@@ -25,6 +25,9 @@ public class userController {
     @Autowired
     private logginService logginService;
 
+
+    private postdata postdata;
+
     @RequestMapping(value = "/login",method = RequestMethod.POST)
     public String login(@RequestParam("id") int id, @RequestParam("password") String password, HttpSession session){
 
@@ -33,6 +36,11 @@ public class userController {
         if (loginType){
             //并跳转到success.jsp页面
             session.setAttribute("uid",id);
+
+            //登录时自动调用post函数
+            postdata.postdataToServer();
+
+
             return "redirect:/sensor/sensorquery";
         }else{
             return "error";
