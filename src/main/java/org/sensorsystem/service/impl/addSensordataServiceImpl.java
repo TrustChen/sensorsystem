@@ -1,6 +1,6 @@
 package org.sensorsystem.service.impl;
 
-import org.sensorsystem.dao.sensordao.sensordao;
+
 import org.sensorsystem.dao.sensordao.sensordatadao;
 import org.sensorsystem.entity.sensordata;
 import org.sensorsystem.service.addSensordataService;
@@ -8,7 +8,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import java.sql.Date;
+import java.util.Date;
 import java.sql.Time;
 
 /**

@@ -1,3 +1,4 @@
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%--
   Created by IntelliJ IDEA.
   User: chen
@@ -108,6 +109,16 @@
                             <div class="pure-u-1 pure-u-md-1-3">
                                 <label for="email">分组</label>
                                 <input id="groupname" name="groupname" class="pure-u-23-24" type="text">
+                            </div>
+
+                            <div class="pure-u-1 pure-u-md-1-3">
+                                <label for="email">单位</label>
+                                <select>
+                                    <c:forEach items="${unit}" var="item">
+                                        <option value="${item.unit}">${item.unit}</option>
+                                    </c:forEach>
+                                </select>
+                                <input id="unit" name="unit" class="pure-u-23-24" type="text">
                             </div>
 
                         </div>

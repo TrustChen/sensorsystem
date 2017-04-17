@@ -21,7 +21,7 @@ import java.util.List;
 public class sensordataquerychartController {
 
     @Autowired
-    private org.sensorsystem.service.sensordataqueryService sensordataqueryService;
+    private sensordataqueryService sensordataqueryService;
 
     @RequestMapping(value = "/dataquerychart", method = RequestMethod.GET)
     public String querydata(@RequestParam("sid") int sid, HttpSession session, Model model, HttpServletRequest request){

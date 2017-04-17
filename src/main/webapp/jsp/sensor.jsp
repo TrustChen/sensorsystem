@@ -65,7 +65,7 @@
         <div class="header">
 
             <h1>您的所有传感器</h1>
-            <h2>添加新的传感器<a href="<%=request.getContextPath()%>/jsp/addsensor.jsp">点我</a></h2>
+            <h2>添加新的传感器<a href="<%=request.getContextPath()%>/sensor/add">点我</a></h2>
         </div>
 
         <div class="content">
@@ -80,6 +80,7 @@
                         <th>国家</th>
                         <th>型号</th>
                         <th>组别</th>
+                        <th>单位</th>
                         <th>操作</th>
                         <th>操作</th>
                     </tr>
@@ -95,6 +96,7 @@
                             <td>${s.area}</td>
                             <td>${s.partnumber}</td>
                             <td>${s.groupname}</td>
+                            <td>${s.unit}</td>
                             <td><button onclick="deleteSensor(${s.sid})">解绑</button></td>
                             <td><a href="<%=request.getContextPath()%>/sensor/dataquery?sid=${s.sid}">数据详细</a></td>
                         </tr>

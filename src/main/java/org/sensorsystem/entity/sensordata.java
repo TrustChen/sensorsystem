@@ -2,7 +2,6 @@ package org.sensorsystem.entity;
 
 
 import java.sql.Time;
-import java.sql.Timestamp;
 import java.util.Date;
 
 /**

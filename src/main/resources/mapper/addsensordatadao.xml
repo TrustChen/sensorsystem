@@ -9,7 +9,7 @@
     <insert id="insertSensordata" parameterType="sensordata">
 
         insert into
-        sensordata (sid,sname, nickname, manufacturer,area,partnumber,groupname) values(#{sid},#{sname}, #{nickname}, #{manufacturer},#{area},#{partnumber},#{groupname})
+        sensordata (name, date,time,data,unit,sid) values(#{name},#{date}, #{time}, #{data},#{unit},#{sid})
 
     </insert>
 

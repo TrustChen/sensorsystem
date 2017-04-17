@@ -19,6 +19,8 @@ public class sensors {
 
     private String groupname;
 
+    private String unit;
+
     public int getSid() {
         return sid;
     }
@@ -73,6 +75,14 @@ public class sensors {
 
     public void setGroupname(String groupname) {
         this.groupname = groupname;
+    }
+
+    public String getUnit() {
+        return unit;
+    }
+
+    public void setUnit(String unit) {
+        this.unit = unit;
     }
 
     @Override
