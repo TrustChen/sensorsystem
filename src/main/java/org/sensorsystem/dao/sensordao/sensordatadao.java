@@ -1,5 +1,6 @@
 package org.sensorsystem.dao.sensordao;
 
+import com.alibaba.fastjson.JSONObject;
 import org.apache.ibatis.annotations.Param;
 import org.sensorsystem.entity.sensordata;
 
@@ -13,5 +14,7 @@ public interface sensordatadao {
     List<sensordata> querySensorData(@Param("uid") int uid,@Param("sid") int sid);
 
     void insertSensordata(sensordata sensordata);
+
+    JSONObject sensordataqueryChart(@Param("uid") int uid,@Param("sid") int sid);
 
 }

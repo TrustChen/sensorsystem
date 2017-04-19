@@ -74,16 +74,8 @@
                     <thead>
                     <tr>
                         <th>名称</th>
-                        <th></th>
-                        <th>系数</th>
-                        <th></th>
-                        <th>米(幂次)</th>
-                        <th>千克(幂次)</th>
-                        <th>秒(幂次)</th>
-                        <th>安培(幂次)</th>
-                        <th>开尔文(幂次)</th>
-                        <th>摩尔(幂次)</th>
-                        <th>坎德拉(幂次)</th>
+                        <th>表示方式（国际单位）</th>
+
                     </tr>
                     </thead>
 
@@ -92,16 +84,18 @@
                     <c:forEach var="s" items="${unit}">
                         <tr class="pure-table-odd">
                             <td>${s.unit}</td>
-                            <td>=</td>
-                            <td>${s.rate}</td>
-                            <td>*</td>
-                            <td>m(${s.m})</td>
-                            <td>kg(${s.kg})</td>
-                            <td>s(${s.s})</td>
-                            <td>a(${s.a})</td>
-                            <td>k(${s.k})</td>
-                            <td>mol(${s.mol})</td>
-                            <td>cd(${s.cd})</td>
+
+                            <td>
+                                ${s.rate}
+                                * m<sup>${s.m}</sup>
+                                * kg<sup>${s.kg}</sup>
+                                * s<sup>${s.s}</sup>
+                                * a<sup>${s.a}</sup>
+                                * k<sup>${s.k}</sup>
+                                * mol<sup>${s.mol}</sup>
+                                * cd<sup>${s.cd}</sup>
+                            </td>
+
                         </tr>
                     </c:forEach>
 

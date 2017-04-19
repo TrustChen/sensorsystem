@@ -37,9 +37,9 @@ public class postdata {
             public void run() {
 
                 try{
-                    for(int i = 0; i < 11;i++) {
+                    for(int i = 0; i < 21;i++) {
 
-                        Thread.sleep(2000);
+                        Thread.sleep(1000);
 
                         String url = "http://localhost:8080/sensor/sensordata/addsensordata";
                         sensordata sensordata = new sensordata();
