@@ -15,7 +15,7 @@ import java.sql.Time;
  * Created by chen on 2017/4/11.
  */
 @Service
-public class addSensordataServiceImpl implements addSensordataService {
+public class AddSensordataServiceTest implements addSensordataService {
 
     @Autowired
     private sensordatadao sensordatadao;

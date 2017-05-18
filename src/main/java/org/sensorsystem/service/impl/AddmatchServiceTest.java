@@ -10,7 +10,7 @@ import org.springframework.transaction.annotation.Transactional;
  * Created by chen on 2017/3/29.
  */
 @Service
-public class addmatchServiceImpl implements addmatchService {
+public class AddmatchServiceTest implements addmatchService {
 
     @Autowired
     private sensormatchdao sensormatchdao;

@@ -11,7 +11,7 @@ import org.springframework.transaction.annotation.Transactional;
  */
 
 @Service
-public class registerServiceImpl implements registerService {
+public class RegisterServiceTest implements registerService {
 
     @Autowired
     private loggindao loggindao;
